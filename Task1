@@ -1,0 +1,27 @@
+# In below code we have create a simple calculator by using python language. In this code firstly we have to enter two numbers for applying the following operatons,then we have to choose operations to perform the following task.
+Just like for adding two numbers we have to choose add operations , other operations are used to perform diffferent different tasks.
+
+num1=float(input("enter first number here"))
+num2=float(input("enter second number here"))
+print('Select operation')
+print('Add')
+print('Subtract')
+print('multiply')
+print('Divide')
+print('Percentage')
+choice=input('Enter choice(Add/subtract/multiply/divide/percentage)')
+if choice == 'Add':
+  print("the sum of num1 and num2 is:",num1+num2)
+elif choice == 'subtract':
+  print("the substraction of num1 and num2 is:",num1-num2)
+elif choice == 'multiply':
+  print("the multiplication of num1 and num2 is:",num1*num2)
+elif choice =='divide':
+  if num2==0:
+    print("divisible is not possible")
+  else:
+    print("the division of num1 and num2 is:",num1/num2)
+elif choice =='percentage':
+  print("the percentage is :",(num1/num2)*100)
+else :
+  print("operator is not found ")    
