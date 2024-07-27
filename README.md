@@ -1,1 +1,6 @@
-# CodTech-Task1
+Name: Aayush Gehlot
+Company: CODTECH IT SOLUTIONS PVT.LTD
+Domain: PYTHON PROGRAMMING
+ID: CT08DS4419
+Duration:JULY 10th,2024 to AUGUST 10th,2024
+Mentor: Muzammil Ahmed
